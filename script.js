@@ -3,8 +3,8 @@ var rate = document.getElementById("rate").value;
 var rateoutput = document.getElementById("rateoutput").value;
 var years = document.getElementById("years").value;
 var interest = (principal * years * rate) /100;
-var actualyear = (new Date().getFullYear()) + years;
-var spanresult = document.getElementById("result");
+var yeartobe = (new Date().getFullYear()) + years;
+var computeresult = document.getElementById("result");
 
 function slider(intratevalue){
     rateoutput = intratevalue;
