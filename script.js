@@ -26,8 +26,8 @@ function compute()
     yeartobe = (new Date().getFullYear()) + Number(years);
     computeresult = document.getElementById("result");
     var text = 'If you deposit $'+principal+',\n'+
-               'at an interest rate of '+rate+'%\n'+
-               'You will receive an amount of $'+interest+',\n'+
+               'at an interest rate of '+rate+'%,\n'+
+               'you will receive an amount of $'+interest+'\n'+
                'in the year '+yeartobe.toString()
     computeresult.innerText = text
     }
